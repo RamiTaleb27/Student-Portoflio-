@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assests/css/all.min.css">
+    <link rel="stylesheet" href="./assests/css/style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="sideNavbar">
+          <div class="logo">
+            <img src="./assests/images/logo.jpg" alt="logo" />
+          </div>
+          <p class="logo-sign">Anas Muhasien</p>
+          <nav class="navbar">
+            <ul>
+              <li><a class="nav-link" href="#home">Home</a></li>
+              <li><a class="nav-link" href="#about">About</a></li>
+              <li><a class="nav-link" href="#services">Services</a></li>
+              <li><a class="nav-link" href="#work">Work</a></li>
+              <li><a class="nav-link" href="#blog">Blog</a></li>
+              <li><a class="nav-link" href="#contact-me">Contact</a></li>
+            </ul>
+          </nav>
+          <button class="theme-switch" id="theme-switch">
+            <i class="fa-solid fa-moon"></i>
+            <i class="fa-solid fa-sun"></i>
+          </button>
+          <div class="copyright">
+            <p>Copyright @2025 Anas Moheisen All Right Reserved</p>
+          </div>
+        </div>
+      </header>
+
+      <div class="content-area">
+        <!-- Hamburger for small screens -->
+        <i class="fa fa-bars" id="hamburger" onclick="changeIcon(this)"></i>
+        <div class="wrapper">
+          <!-- Start Hero Section -->
+          <div class="hero" id="home">
+            <div class="container">
+              <div class="text-content">
+                <div class="head-content">
+                  <h1>Anas Moheisen</h1>
+                  <h3>Front-End Developer</h3>
+                </div>
+                <div class="social-contact">
+                  <p>+970 567434927</p>
+                  <p>anasgamer059@gmail.com</p>
+                  <p>Palestine, Gaza, AlNaser St.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Hero Section -->
+
+          <!-- Start About me Section -->
+          <div class="aboutme" id="about">
+            <div class="container">
+              <div class="aboutme-container">
+                <div class="text">
+                  <div class="text-head">
+                    <h3>About Me</h3>
+                    <h1>Anas Moheisen</h1>
+                  </div>
+                  <p>
+                    I'm a front-end developer with more than 4 years of
+                    experience. If you need a responsive, pixel-perfect, and
+                    cross-browser website — I'm the developer you're looking
+                    for.
+                  </p>
+                  <div class="about-information">
+                    <div class="left">
+                      <p><span>Birthday:</span> 28 May, 2004</p>
+                      <p><span>Website:</span> www.anasmoheisen.com</p>
+                      <p><span>Phone:</span> +970 567434927</p>
+                      <p><span>Study:</span> Islamic University</p>
+                    </div>
+
+                    <div class="right">
+                      <p><span>Degree:</span> Bachlor's</p>
+                      <p><span>Mail:</span> anasgamer059@gmail.com</p>
+                      <p><span>Linkedin:</span> @anasmoheisen</p>
+                      <p><span>Freelance:</span> Available</p>
+                    </div>
+                  </div>
+                  <a href="" class="cv" download=""
+                    >Download CV <i class="bx bxs-download"></i
+                  ></a>
+                </div>
+                <div class="aboutme-img">
+                  <img src="./assests/images/round.jpg" alt="round-img" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End About me Section -->
+
+          <!-- Start Services Section  -->
+          <div class="services" id="services">
+            <div class="container">
+              <div class="services-head">
+                <div class="text">
+                  <h3>What I Do</h3>
+                  <h1>Services</h1>
+                </div>
+              </div>
+              <div class="services-container">
+                <div class="item">
+                  <div class="item-content">
+                    <div class="icon"><i class="bx bx-laptop"></i></div>
+                    <h2>Website</h2>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Aspernatur, rerum.
+                    </p>
+                  </div>
+                  <div class="card-number">01</div>
+                </div>
+                <div class="item">
+                  <div class="item-content">
+                    <div class="icon">
+                      <i class="bx bx-bar-chart-alt-2"></i>
+                    </div>
+                    <h2>Seo Marketing</h2>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Aspernatur, rerum.
+                    </p>
+                  </div>
+                  <div class="card-number">02</div>
+                </div>
+                <div class="item">
+                  <div class="item-content">
+                    <div class="icon"><i class="bx bx-basket"></i></div>
+                    <h2>Ecommerce</h2>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Aspernatur, rerum.
+                    </p>
+                  </div>
+                  <div class="card-number">03</div>
+                </div>
+                <div class="item">
+                  <div class="item-content">
+                    <div class="icon"><i class="bx bx-slideshow"></i></div>
+                    <h2>Grapic Design</h2>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Aspernatur, rerum.
+                    </p>
+                  </div>
+                  <div class="card-number">04</div>
+                </div>
+                <div class="item">
+                  <div class="item-content">
+                    <div class="icon"><i class="bx bx-radar"></i></div>
+                    <h2>Digital Marketing</h2>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Aspernatur, rerum.
+                    </p>
+                  </div>
+                  <div class="card-number">05</div>
+                </div>
+                <div class="item">
+                  <div class="item-content">
+                    <div class="icon"><i class="bx bx-conversation"></i></div>
+                    <h2>Social Media</h2>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Aspernatur, rerum.
+                    </p>
+                  </div>
+                  <div class="card-number">06</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Services Section -->
+
+          <!-- Start WorkShowcase Section -->
+          <div class="work" id="work">
+            <div class="container">
+              <div class="work-head">
+                <div class="text">
+                  <h3>Recent work Completed</h3>
+                  <h1>Work Showcase</h1>
+                </div>
+              </div>
+              <div class="myWork-container">
+                <div class="item item1">
+                  <img src="./assests/images/work/01.jpg" alt="" />
+                  <div class="item-content">
+                    <h1>Work P.01</h1>
+                    <hr />
+                    <p>Book Design, Adobe XD, photoshop, Illustrator, Figma</p>
+                  </div>
+                </div>
+                <div class="item item2">
+                  <img src="./assests/images/work/02.jpg" alt="" />
+                  <div class="item-content">
+                    <h1>Work P.01</h1>
+                    <hr />
+                    <p>Book Design, Adobe XD, photoshop, Illustrator, Figma</p>
+                  </div>
+                </div>
+                <div class="item item3">
+                  <img src="./assests/images/work/03.jpg" alt="" />
+                  <div class="item-content">
+                    <h1>Work P.01</h1>
+                    <hr />
+                    <p>Book Design, Adobe XD, photoshop, Illustrator, Figma</p>
+                  </div>
+                </div>
+                <div class="item item4">
+                  <img src="./assests/images/work/04.jpg" alt="" />
+                  <div class="item-content">
+                    <h1>Work P.01</h1>
+                    <hr />
+                    <p>Book Design, Adobe XD, photoshop, Illustrator, Figma</p>
+                  </div>
+                </div>
+                <div class="item item5">
+                  <img src="./assests/images/work/05.jpg" alt="" />
+                  <div class="item-content">
+                    <h1>Work P.01</h1>
+                    <hr />
+                    <p>Book Design, Adobe XD, photoshop, Illustrator, Figma</p>
+                  </div>
+                </div>
+                <div class="item item6">
+                  <img src="./assests/images/work/06.jpg" alt="" />
+                  <div class="item-content">
+                    <h1>Work P.01</h1>
+                    <hr />
+                    <p>Book Design, Adobe XD, photoshop, Illustrator, Figma</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End WorkShowcase Section -->
+          <!-- Start blog Section -->
+          <div class="blog" id="blog">
+            <div class="container">
+              <div class="blog-head">
+                <div class="text">
+                  <h3>My Blog</h3>
+                  <h1>Current News</h1>
+                </div>
+                <div class="blog-container">
+                  <div class="card">
+                    <div class="card-img">
+                      <img src="./assests/images/blog/01.jpg" alt="" />
+                    </div>
+                    <div class="card-text">
+                      <p><span>Web Design - </span>18 Dec, 2021</p>
+                      <p>Developer Watch Out for These Burnout Symptoms</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-img">
+                      <img src="./assests/images/blog/02.jpg" alt="" />
+                    </div>
+                    <div class="card-text">
+                      <p><span>Social Media - </span>18 Dec, 2021</p>
+                      <p>From Perfect To Positive</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-img">
+                      <img src="./assests/images/blog/03.jpg" alt="" />
+                    </div>
+                    <div class="card-text">
+                      <p><span>Web Design - </span>18 Dec, 2021</p>
+                      <p>Importance of Being A Team Member</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-img">
+                      <img src="./assests/images/blog/04.jpg" alt="" />
+                    </div>
+                    <div class="card-text">
+                      <p><span>Web Design - </span>18 Dec, 2021</p>
+                      <p>What Is Customer Experience?</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Blog Section -->
+          <!-- Start Contact-Me Section -->
+          <div class="contact-me" id="contact-me">
+            <div class="container">
+              <div class="contactMe-head">
+                <div class="text">
+                  <h3>Get In Touch</h3>
+                  <h1>Contact Me</h1>
+                </div>
+              </div>
+
+              <div class="contactMe-container">
+                <div class="contact-body">
+                  <div class="contact-text">
+                    <h3>Let`s Create The Future</h3>
+                    <p>
+                      I`am available for commissions and collaborations, and
+                      I`am excited to hear from you about new projects.
+                    </p>
+                  </div>
+                  <div class="contact-info">
+                    <p>
+                      <span><i class="bx bx-headphone"></i></span> +970
+                      567434927
+                    </p>
+                    <p>
+                      <span><i class="bx bx-envelope"></i></span>
+                      anasgamer059@gmail.com
+                    </p>
+                    <p>
+                      <span><i class="bx bxl-skype"></i></span> @anasmoheisen
+                    </p>
+                    <p>
+                      <span><i class="bx bx-map"></i></span> Palestine, Gaza,
+                      Elnaser Street
+                    </p>
+                  </div>
+                </div>
+
+                <form class="contact-form">
+                  <div class="form-group">
+                    <input type="text" placeholder="Name" required />
+                    <input type="email" placeholder="Email" required />
+                  </div>
+                  <textarea placeholder="Message" required></textarea>
+                  <button type="submit">Send Message</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- end Contact Section -->
+          <!-- Start Footer section  -->
+          <div class="footer">
+            <div class="container">
+              <div class="copyright-footer">
+                <p>Copyright @2025 Anas Moheisen All Right Reserved</p>
+              </div>
+              <div class="social-icons">
+                <i class="bx bxl-instagram"></i>
+
+                <i class="bx bxl-twitter"></i>
+
+                <i class="bx bxl-twitch"></i>
+              </div>
+            </div>
+          </div>
+          <!-- End Footer Section -->
+        </div>
+      </div>
+      <button id="scrollUpBtn"><i class="bx bx-up-arrow-alt"></i></button>
+    </main>
+
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script> -->
+    <script src="./assests/js/app.js"></script>
+  </body>
+</html>
